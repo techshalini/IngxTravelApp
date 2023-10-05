@@ -1,0 +1,50 @@
+<mvc:View  controllerName="travelrequest.controller.View4"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+     xmlns:form="sap.ui.layout.form"
+      xmlns:core="sap.ui.core">
+     <Page id="_IDGenPage1" title="Travellers Detail" titleAlignment="Center" >
+    <form:SimpleForm id="_IDGenSimpleForm1" >
+      <core:Title id="_IDGenTitle1" text="" />
+
+     <Label id="_IDGenLabel1" text="Travel ID" ></Label>
+
+     <Text id="_IDGenText1"  text="{origin}"></Text>
+
+     <!-- <Label id="_IDGenLabel2" text="Employee Name" ></Label>
+
+     <Text id="_IDGenText2"  text="{passengerName}"></Text>
+
+     <Label id="_IDGenLabel3" text="Mode of Transport" ></Label>
+
+     <Text id="_IDGenText3"  text="{travelMode}"></Text>
+
+    
+      <Label id="_IDGenLabel6" text="Travel Status" ></Label>
+
+     <Text id="_IDGenText6"  text="{travelStatus}"></Text>
+       <core:Title id="_IDGenTitle2" text="" />
+    
+       <Label id="_IDGenLabel4" text="Origin" ></Label>
+
+     <Text id="_IDGenText4"  text="{origin}"></Text>
+
+     <Label id="_IDGenLabel5" text="Destination" ></Label>
+
+     <Text id="_IDGenText5"  text="{destination}"></Text>
+
+    
+
+     <Label id="_IDGenLabel7" text="Hotel Accomodation" ></Label>
+
+     <Text id="_IDGenText7"  text="{Accomandation}"></Text>
+
+     <Label id="_IDGenLabel8" text="Billable" ></Label>
+
+     <Text id="_IDGenText8"  text="{billable}"></Text> -->
+    </form:SimpleForm  >
+  
+     </Page>
+  
+</mvc:View>

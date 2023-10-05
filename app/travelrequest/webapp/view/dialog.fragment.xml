@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="mySelectDialog"
+		noDataText="No Products Found"
+		title="Select Product"
+		search="onValueHelpSearch"
+		confirm="onValueHelpClose"
+		cancel="onValueHelpClose"
+		items="{
+			path: '/Travel'
+		}">
+		<StandardListItem id="_IDGenStandardListItem1"
+			title="{passengerName}"
+			description="{empId_Empid}"
+		
+			iconDensityAware="false"
+			iconInset="false"
+			type="Active" />
+	</SelectDialog>
+</core:FragmentDefinition>

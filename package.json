@@ -14,10 +14,12 @@
     "passport": "^0.6.0"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1"
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.108.15"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-travelrequest": "cds watch --open travelrequest/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
