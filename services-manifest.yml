@@ -1,0 +1,10 @@
+# Generated services-manifest.yml based on template version 0.1.0
+# appName = ingenx_travel_app
+---
+create-services:
+# ------------------------------------------------------------
+  - name:   ingenx_travel_app-db
+    broker: hana  # 'hanatrial' on trial landscapes
+    plan: "hdi-shared"
+    broker: hana
+    plan: db

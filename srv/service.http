@@ -1,0 +1,28 @@
+
+POST http://localhost:4004/odata/v4/travel/insertTravel
+Content-Type: application/json
+
+{
+ "travelId":"13119",
+ "empId_Empid":"I102222",
+ "empName_Empid":"Mohin",
+ "origin":"delhi",
+ "destination":"noida",
+ "dateOfDeparture":"2023-10-11",
+ "dateOfArrival":"2023-10-12",
+ "dateOfReturn":"2023-10-13",
+ "description":"Welcome buddy",
+ "price":12000,
+ "travelStatus":"APD",
+ "noOfDays":5,
+ "noOfPassengers":"1",
+ "passengerName":["Mr xaybzc"],
+ "travelType":"National",
+ "travelMode":"Flight",
+ "RoundTrip":"OneWay",
+ "Accomandation":"Yes",
+  "billable":"Yes"
+}
+
+
+ 

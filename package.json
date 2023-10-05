@@ -9,7 +9,9 @@
     "@sap/cds": "^7.2.1",
     "@sap/cds-dk": "^7.2.0",
     "@sap/cds-hana": "^2",
-    "express": "^4"
+    "@sap/xssec": "^3.3.5",
+    "express": "^4",
+    "passport": "^0.6.0"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1"
@@ -19,7 +21,15 @@
   },
   "cds": {
     "requires": {
-      "db": "hana"
+      "auth": {
+        "[production]": {
+          "kind": "dummy-auth"
+        },
+        "kind": "xsuaa"
+      },
+      "db": {
+        "kind": "hana"
+      }
     }
   }
 }
